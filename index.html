@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>To-Do App</title>
+  </head>
+  <body>
+    <div class="vl1"></div>
+    <div class="vl2"></div>
+    <div class="vl1"></div>
+    <div class="main" align="center">
+      <p id="f"><font size="6"><a href="index.html"><i><b>To-Do App</b></i></a></font></p>
+    <input type="text" id="text-box" placeholder="Enter Your Text"> <input id="btn" type="button" value="Click Me">
+    <br>
+    <hr>
+    <br>
+    <div id="para">
+    <ul id="ull">
+    </ul></div>
+  </div>
+  <div class="vr1"></div>
+  <div class="vr2"></div>
+  <div class="vl1"></div>
+    <script>
+        var e=document.getElementById('text-box');
+        console.log(e);
+        var e1=document.getElementById('btn');
+        console.log(e1);
+
+        e1.addEventListener('click',testClick);
+        console.log(e1);
+
+        function testClick()
+        {
+          var e3=document.getElementById('ull');
+          var item=document.createElement('li');
+          e3.setAttribute("style","list-style-type:none;");
+          item.setAttribute("class","list")
+          console.log(item);
+          e3.appendChild(item);
+          item.textContent=e.value;
+        }
+</script>
+  </body>
+</html>
