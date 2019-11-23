@@ -11,11 +11,9 @@ body
      box-shadow:0 0 20px 0 #025e97;
      float:center;
      margin-left:100px;
-     margin-top:80px;
+     margin-top:40px;
      border-radius: 10px;
      border:2px solid #025e97;
-
-
 }
 #text-box
 {
@@ -71,6 +69,7 @@ body
    padding-left: 10px;
    padding-right: 10px;
    padding-top:8px;
+   padding-bottom: 5px;
    background-color:#037dc9;
    border:1px solid white;
    border-radius: 20px;
@@ -90,6 +89,7 @@ body
    padding-left: 10px;
    padding-right: 10px;
    padding-top:8px;
+   padding-bottom:5px;
    background-color:#025e97;
    border:1px solid white;
    border-radius: 20px;
@@ -171,4 +171,9 @@ margin-top:10px;
 top: 0;
 border-radius: 10px;
 box-shadow:0 0 12px 0 #025e97 ;
+}
+.material-icons
+{
+  margin-left:320px;
+  margin-bottom:100px;
 }
